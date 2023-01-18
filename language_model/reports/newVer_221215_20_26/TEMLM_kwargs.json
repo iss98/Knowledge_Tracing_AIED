@@ -1,0 +1,26 @@
+{
+	"TE_kwargs": {
+		"emb": 2552,
+		"textEmb": 64,
+		"EmbOut": 200,
+		"PAD": 0,
+		"Math": 5
+	},
+	"ME_kwargs": {
+		"emb": 736,
+		"mathEmb": 200,
+		"d_model": 200,
+		"nhead": 4,
+		"num_layers": 4,
+		"dropout": 0,
+		"max_len": 200,
+		"EmbOut": 200,
+		"mathMask": 4
+	},
+	"d_model": 200,
+	"n_head": 8,
+	"num_layers": 8,
+	"PEdropout": 0,
+	"max_len": 300,
+	"ELdropout": 0.1
+}
