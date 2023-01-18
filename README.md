@@ -10,7 +10,7 @@ Our datasets are synthetic data based on Korean SAT mathematics problem. After l
 ## T-RKT model
 
 T-RKT model is a minor update version of RKT model from the perspective of the  Korean curriculum. Item embeddings are output of TEMLM language model, which is also learned based on Korean SAT mathematics problem. For a more detailed explanation, check following [github repository](https://github.com/radishtiger/TEMLM_open, "TEMLM link"). T-RKT model structure is shown in the picture below.
-![model structure](./save/model_sturcture)
+![model structure]("save/model_sturcture.jpg")
 
 ## Training model
 
@@ -30,8 +30,8 @@ wandb.login()
 ```
 In order to proceed training, there must be an item config. Set item config 60 if dsitem config is fixed and set 959 if dsitem config is rand. 
 
-##Result
-| Correlationi | Pretest | DKT | SAKT | RKT |
+## Result
+| Correlation | Pretest | DKT | SAKT | RKT |
 | :--------: | :--------: |:--------: | :--------: | :--------: |
 | indep | fixed | 0.760 |  0.763 | 0.831|
 |  | random | 0.666 |  0.766 | 0.769 |
@@ -40,7 +40,7 @@ In order to proceed training, there must be an item config. Set item config 60 i
 | high | fixed | 0.761 |  0.7613 | 0.817|
 |  | random | 0.657 |  0.760 | 0.765 |
 
-##Reference 
+## Reference 
 * [DKT](https://proceedings.neurips.cc/paper/2015/file/bac9162b47c56fc8a4d2a519803d51b3-Paper.pdf)
 * [DKVMN](https://dl.acm.org/doi/pdf/10.1145/3038912.3052580)
 * [SAKT](https://arxiv.org/pdf/1907.06837.pdf)
