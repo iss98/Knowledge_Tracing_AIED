@@ -10,7 +10,7 @@ Our datasets are synthetic data based on Korean SAT mathematics problem. After l
 ## T-RKT model
 
 T-RKT model is a minor update version of RKT model from the perspective of the  Korean curriculum. Item embeddings are output of TEMLM language model, which is also learned based on Korean SAT mathematics problem. For a more detailed explanation, check following [github repository](https://github.com/radishtiger/TEMLM_open, "TEMLM link"). T-RKT model structure is shown in the picture below.
-![model structure]("save/model_sturcture.jpg")
+![model structure]("save/model_structure.jpg")
 
 ## Training model
 
