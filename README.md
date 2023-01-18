@@ -40,6 +40,13 @@ In order to proceed training, there must be an item config. Set item config 60 i
 | high | fixed | 0.761 |  0.7613 | 0.817|
 |  | random | 0.657 |  0.760 | 0.765 |
 
+## Application
+
+T-RKT model can be used to evaluate a student's knwledge concept.  
+[streamlit demo](https://iss98-2022-aied-kt-app-teckun.streamlit.app/)
+![](save/application.jpg)
+
+
 ## Reference 
 * [DKT](https://proceedings.neurips.cc/paper/2015/file/bac9162b47c56fc8a4d2a519803d51b3-Paper.pdf)
 * [DKVMN](https://dl.acm.org/doi/pdf/10.1145/3038912.3052580)
